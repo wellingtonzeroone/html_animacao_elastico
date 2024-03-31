@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1, h2, h3{
+            text-align: center;
+        }
+        h3{
+            transition: transform 0.4s cubic-bezier(0.05,-0.05,0.05,2.5);
+            font-size: 50px;
+            height: 60px;
+            width: 400px;
+            margin: auto;
+        }
+        h3:hover{
+            transform: translate(-10px) scale(1.8);
+        }
+        body{
+            background-color: rgb(246, 255, 0);
+        }
+        img{
+            width: 300px;
+            height: auto;
+        }
+        .image-container{
+            text-align: center;
+            border: 2px solid black;
+            width: 300px;
+            height: 213px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Caixa de chocolate</h1>
+    <div class="image-container"><img src="caixa.png" alt="caixadechocolate"></div>
+    <h2>Preço: </h2>
+    <h3>R$ 9,99</h3>
+</body>
+</html>
